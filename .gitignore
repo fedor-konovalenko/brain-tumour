@@ -1,0 +1,9 @@
+tumour_finder/venv/
+tumour_finder/.idea/
+__pycache__/
+tumour_finder/app/src/__pycache__/
+!tumour_finder/app/src/tmp/logo.png
+tumour_finder/app/src/*.pth
+tumour_finder/app/src/tmp/*.jpg
+tumour_finder/app/src/tmp/*.png
+tumour_finder/app/src/tmp/*.jpeg
