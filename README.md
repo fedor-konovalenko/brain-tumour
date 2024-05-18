@@ -10,7 +10,8 @@ ____________
 
 ### Classification
 -------
-There were several models, such as ResNet50, DenseNet121, MobilenetV2 with similar results (accuracy about 0.99, ROC-AUC about 1.0)
+There were several models, such as ResNet50, DenseNet121, MobilenetV2 with similar results (accuracy about 0.99, ROC-AUC about 1.0).
+
 For the application the ResNet50 was selected.
 
 ___________________
