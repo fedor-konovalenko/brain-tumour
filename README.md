@@ -28,6 +28,19 @@ Then about 1100 images were marked with bounding boxes (with CVAT) and the SSD30
 - mean IoU value - 0,62
 
 And with best models the FastAPI application were developed.
+_____
+### Run
 
-
-
+- clone the repo
+- download the models' weights to tumour_finder/app/src folder:
+  - [ResNet](https://drive.google.com/file/d/1ZLUfMwoFxCFxz984oBk-UMMP6IYP-44Q/view?usp=sharing)
+  - [SSD](https://drive.google.com/file/d/1FAu5rlUgqlY5jKlBD9yObAk6fvBjNwVU/view?usp=sharing)
+- build the docker image
+  ```bash
+	docker build --tag mri .
+  ```
+- run the container
+  ```bash
+	docker run --rm -it -p 8010:8000 --name app mri
+  ```
+- the app is available at 8010 port
