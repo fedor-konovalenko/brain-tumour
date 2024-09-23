@@ -1,6 +1,8 @@
 tumour_finder/venv/
 tumour_finder/.idea/
 __pycache__/
+.idea
+.venv
 tumour_finder/app/src/__pycache__/
 !tumour_finder/app/src/tmp/logo.png
 tumour_finder/app/src/*.pth
